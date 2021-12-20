@@ -1,0 +1,25 @@
+{
+  "name": "sslspy",
+  "version": "1.0.0",
+  "description": "An API to grab the specified domain SSL information.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "i2rys",
+    "SSLSpy",
+    "ssl-grabber",
+    "ssl-information",
+    "ssl-information-grabber"
+  ],
+  "repository": "https://github.com/I2rys/SSLSpy",
+  "author": {
+    "name": "I2rys",
+    "email": "i2rys@protonmail.com",
+    "website": "https://github.com/i2rys"
+  },
+  "license": "MIT"
+}
