@@ -16,7 +16,7 @@ Web.get("/", async function(req, res){
     const domain = req.fetchParameter(["domain"]).domain
 
     if(!domain){
-        return res.status(406).json({
+        return res.json({
             "status": 406,
             "message": "Invalid domain parameter/parameter value is empty."
         }).end()
@@ -25,15 +25,16 @@ Web.get("/", async function(req, res){
     try{
         const result = await GDC(domain)
 
-        res.status(200).json({
+        res.json({
             "status": 200,
             "message": "Successfully grabbed the specified domain SSL information.",
             "data": result
         }).end()
     }catch{
-        return res.status(406).json({
+        return res.json({
             "status": 406,
-            "message": "Invalid domain parameter/parameter value is empty."
+            "message": "Invalid domain parameter/parameter value is empty.",
+            "data": []
         }).end()
     }
 })

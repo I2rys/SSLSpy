@@ -19,7 +19,7 @@ npm i express-param && npm i get-domain-certificate && npm i express
 
 Test NPM Packages:
 ```
-npm i jest -g && npm i got
+npm i got
 ```
 
 ## Usage

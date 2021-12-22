@@ -10,7 +10,7 @@
   },
   "keywords": [
     "i2rys",
-    "SSLSpy",
+    "sslspy",
     "ssl-grabber",
     "ssl-information",
     "ssl-information-grabber"
@@ -19,7 +19,7 @@
   "author": {
     "name": "I2rys",
     "email": "i2rys@protonmail.com",
-    "website": "https://github.com/i2rys"
+    "website": "https://i2rys.xyz"
   },
   "license": "MIT"
 }
